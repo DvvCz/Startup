@@ -10,5 +10,6 @@ It's currently purely cosmetic but I wanted in on nice things that linux has lik
    2. Navigate to `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor`
    3. Create a string variable `AutoRun` with the value of the path of wherever you saved `src/start.cmd`
 3. Open up a terminal and see for yourself
+4. Note, to have winfetch look exactly as the preview, [you'll need to configure it yourself](https://github.com/lptstr/winfetch/wiki/Configuration).
 
 ![preview.png](preview.png)
