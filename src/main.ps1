@@ -6,4 +6,4 @@ function RunScript([string]$path) {
 RunScript("winfetch\winfetch.ps1")
 
 # Print a random quote
-RunScript("src\quote.ps1")
+# RunScript("src\quote.ps1")
