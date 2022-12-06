@@ -1,7 +1,6 @@
 @echo off
 
-:: Hide initial terminal message
-cls
-
-:: Start main powershell instance
-powershell -File %~dp0\main.ps1
+if not "%TERM_PROGRAM%" == "vscode" (
+	:: Start main powershell instance if not in vscode
+	powershell -File %~dp0\main.ps1
+)
