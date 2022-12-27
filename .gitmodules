@@ -1,0 +1,3 @@
+[submodule "winfetch"]
+	path = winfetch
+	url = https://github.com/DvvCz/winfetch
